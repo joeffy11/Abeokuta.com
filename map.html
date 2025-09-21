@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abeokuta Filling Stations Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/> 
+         <style>
+            .back{
+            justify-content: center;
+            align-items:center;
+            text-align:center;
+            position: absolute;
+            bottom: 43px;
+            left: 5px;
+            z-index: 1000;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 100px;
+            max-height: 90vh;
+            overflow-y: auto;
+            display: inline-block;
+            background-color: #ff6600; /* Oando orange */
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            
+            }
+          </style>
+</head>
+<body>
+    <div class="map-controls">
+        <h3>Abeokuta Explore</h3>
+        <input type="text" id="station-search" class="search-box" placeholder="Search for petrol stations...">
+        <div id="search-results" class="station-list"></div>
+        <div id="location-status"></div>
+    </div>
+    
+        <a href="index.html" class="back">Back</a>
+        
+    <div id="map"></div> 
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    
+    <!-- Leaflet Routing Machine -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
