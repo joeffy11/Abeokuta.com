@@ -2115,6 +2115,7 @@ const hotels = [
         position: [7.1390, 3.3506],
         address: "MKO Abiola Way, by NNPC Mega Station, Abeokuta 49H6+FF",
         phone: "08036116762",
+        coordinate: "7.1390, 3.3506",
         Price: "₦45,000–₦60,000/night (approx. US$57–US$76)",
         services: "Free Wi Fi; outdoor pool; restaurant; free parking; air conditioning; housekeeping; 24 hr front desk", 
         hours: "Check in/out: 2 PM / 12 PM, Restaurant: breakfast ~7 AM–10 AM; dinner ~6 PM–10 PM",
