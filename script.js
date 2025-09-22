@@ -2224,7 +2224,6 @@ fillingStations.forEach(station => {
             <p><strong>Address:</strong> ${station.address}</p>
             <p><strong>Contact:</strong> ${formatContactInfo(station.phone)}</p>
             <p><strong>Hours:</strong> ${station.hours}</p>
-            <p><strong>coordinate:</strong> ${station.coordinate}</p>
             <p><strong>Services:</strong> ${station.services.join(', ')}</p>
             ${station.image ? `<img src="${station.image}" alt="${station.name}" class="station-image" onclick="createImageModal('${station.image}', '${station.name.replace(/'/g, "\\'")}')">` : ''}
             <p><strong>Details:</strong> ${station.details}</p>
@@ -2266,7 +2265,6 @@ hotels.forEach(hotel => {
             <p><strong>Contact:</strong> ${formatContactInfo(hotel.phone)}</p>
             <p><strong>Price:</strong> ${hotel.price || 'Not specified'}</p>
             <p><strong>Hours:</strong> ${hotel.hours}</p>
-            <p><strong>coordinate:</strong> ${hotel.coordinate}</p>
             <p><strong>Services:</strong> ${Array.isArray(hotel.services) ? hotel.services.join(', ') : hotel.services}</p>
             <button class="directions-btn" 
                 onclick="getDirections(${hotel.position[0]}, ${hotel.position[1]}, '${hotel.name.replace(/'/g, "\\'")}', ${hotel.id})">
@@ -2317,7 +2315,6 @@ allCategories.forEach(location => {
             <p><strong>Address:</strong> ${location.address}</p>
             <p><strong>Contact:</strong> ${formatContactInfo(location.phone)}</p>
             <p><strong>Hours:</strong> ${location.hours}</p>
-            <p><strong>Coordinate:</strong> ${location.coordinate}</p>
             <p><strong>Details:</strong> ${location.details}</p>
             <button class="directions-btn" 
                 onclick="getDirections(${location.position[0]}, ${location.position[1]}, '${location.name.replace(/'/g, "\\'")}', ${location.id})">
