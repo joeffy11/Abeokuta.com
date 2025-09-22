@@ -410,6 +410,7 @@ const fillingStations = [
         address: "57FQ+QQG, 111105, Ogun State",
         phone: "Not listed",
         hours: "Daily 07:00-19:00",
+        coordinate: "7.174661034313218, 3.2894530950376915"
         details: "Standard petrol/diesel, typical station amenities. Main mast available. Restroom available. Alignment/interacting Unit available.",
         image: "media/image1.jpg"
     },
