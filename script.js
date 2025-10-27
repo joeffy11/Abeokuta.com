@@ -2173,6 +2173,26 @@ const hotels = [
         price: "₦60,000-₦120,000/night (~US$83-US$166)",
         services: ["Free Wi-Fi", "Complimentary breakfast", "Outdoor pool", "Spa", "Fitness room", "2 restaurants", "3 bars/lounges", "Nightclub", "15 meeting rooms", "Paid airport shuttle", "Free parking", "Concierge", "24-hr front desk", "Laundry/valet", "Gift shop", "Room service"],
         hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
+    },
+    {
+        id: 87,
+        name: "M.K.O. Abiola International Stadium",
+        stars: 5,
+        position: [7.133504937687889, 3.355254566201838],
+        address: "49M4+74,Kuto, inside M.K.O. Abiola International Stadium, Kuto, Abeokuta 111102, Ogun State",
+        phone: "09012236551",
+        services: ["Sport, Entertainment and Vacation"],
+        hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
+    },
+    {
+        id: 87,
+        name: "Olusegun Obasanjo Presidential Library (OOPL)",
+        stars: 5,
+        position: [7.125948250144351, 3.3639567931879695],
+        address: "49G7+7JM, Presidential Boulevard, Oke Mosan, Abeokuta 110118, Ogun State",
+        phone: "08097240000",
+        services: ["Entertainment and Vacation"],
+        hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
     }
 ];
 
