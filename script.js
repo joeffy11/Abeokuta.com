@@ -2175,7 +2175,7 @@ const hotels = [
         hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
     },
     {
-        id: 87,
+        id: 88,
         name: "M.K.O. Abiola International Stadium",
         stars: 5,
         position: [7.133504937687889, 3.355254566201838],
@@ -2185,7 +2185,7 @@ const hotels = [
         hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
     },
     {
-        id: 87,
+        id: 89,
         name: "Olusegun Obasanjo Presidential Library (OOPL)",
         stars: 5,
         position: [7.125948250144351, 3.3639567931879695],
