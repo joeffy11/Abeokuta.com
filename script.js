@@ -2215,7 +2215,7 @@ const hotels = [
         hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
     },
     {
-        id: 93,
+        id: 92,
         name: "Gateway Radio",
         stars: 5,
         position: [7.169323815880779, 3.3022004213673153],
@@ -2223,7 +2223,7 @@ const hotels = [
         phone: "",
         services: ["Sport, Entertainment and Vacation"],
         hours: "Check-in: from 2PM; Check-out: by 12PM, Spa & gym: typically 7AM-10PM, Restaurants & bars: approx. 6AM-11PM"
-    },
+    }
 ];
 
 // Process each station to add brand and services
